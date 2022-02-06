@@ -1,0 +1,1 @@
+add_library(bool_lib bool_lib.c)
