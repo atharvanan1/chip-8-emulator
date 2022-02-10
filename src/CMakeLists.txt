@@ -1,9 +1,9 @@
-add_executable(Dummy main.c)
-add_subdirectory(bool_lib)
+add_executable(${CMAKE_PROJECT_NAME} main.c)
+add_subdirectory(stack)
 
-target_link_libraries(Dummy PUBLIC bool_lib)
+target_link_libraries(${CMAKE_PROJECT_NAME} PUBLIC stack)
 
-target_include_directories(Dummy PUBLIC
+target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
                             "${PROJECT_BINARY_DIR}"
-                            "${PROJECT_SOURCE_DIR}/bool-test"
+                            "${SOURCE_DIR}/stack"
                             )
