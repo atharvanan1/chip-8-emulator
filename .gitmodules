@@ -1,0 +1,3 @@
+[submodule "lib/cfltk"]
+	path = lib/cfltk
+	url = git@github.com:MoAlyousef/cfltk.git
