@@ -14,7 +14,7 @@
 
 ## Resource list
 
-Below is the message copied from Discord for easier reference:
+Below is the message [copied from Discord](https://discord.com/channels/465585922579103744/482208284032499713/806217420922290196) for easier reference:
 
 CHIP-8:
 - There are a lot of full tutorials on the Internet, so just searching "chip8 emulator tutorial" and looking for one in your language of choice should be enough if you're looking for a step-by-step guide.
